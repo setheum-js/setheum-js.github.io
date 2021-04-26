@@ -5,12 +5,12 @@
 }
 
 a{ 
-    color: #fcd440 !important; 
+    color: #c021ff !important; 
     text-decoration: none 
 }
 
 h1{ 
-    color: #ffffff; 
+    color: #ff792b; 
     font-weight: 400; 
     margin: 1rem 0; 
     opacity: 0.95 
@@ -57,35 +57,6 @@ p{
     width: 1.5rem 
 }
 
-.box { 
-    background: rgba(255, 255, 255, 0.85); 
-    border-radius: 0.25rem; 
-    flex: 2 2; 
-    margin: 0.5rem; 
-    min-width: 15rem; 
-    max-width: 21rem; 
-    padding:  1.5rem; 
-    text-align: center; 
-    white-space: nowrap; 
-    width: 21rem; 
-    z-index: 2 }
-
-.container{
-    width: 100%;
-    height: 99vh;
-    background-position: center;
-    background-size: cover;
-    padding-top: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 16%;
-    box-sizing: border-box;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-}
-
 .gradient {
   background: rgb(255,0,163);
   background: linear-gradient(
@@ -95,18 +66,38 @@ p{
     rgba(0,255,234,1) 100%, rgb(53, 119, 122) 100%); 
 }
 
+body{ 
+    color: #4e4e4e; 
+    font-family: "-apple-system", 
+    BlinkMacSystemFont, "Segoe UI", 
+    Roboto, 
+    Oxygen, 
+    Ubuntu, 
+    Cantarell, "Open Sans", 
+    "Helvetica Neue", 
+    Helvetica, 
+    Arial, 
+    sans-serif, 
+    "Apple Color Emoji", 
+    "Segoe UI Emoji", 
+    "Segoe UI Symbol"; 
+    height: 100vh; 
+    overflow: hidden; 
+    padding: 0 }
+      
 .row{
-    display: fles;
+    display: flex;
     height:34%;
     align-items: center;
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 22%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    justify-content: center 
 }
 
 .col{
-    flex-basis: 45%;
+    flex-basis: 50%;
     display: flex;
 }
 
@@ -132,6 +123,45 @@ button{
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+}
+
+.box { 
+    background: rgba(255, 255, 255, 0.85); 
+    border-radius: 25.8px; 
+    flex: 2 2; 
+    margin: 0.5rem; 
+    min-width: 15rem; 
+    max-width: 21rem; 
+    padding:  3rem; 
+    text-align: center; 
+    width: 5rem; 
+    height: 17rem; 
+
+    background-image: linear-gradient(
+    90deg, rgba(255, 0, 162, 0.439) 0%, 
+    rgba(170, 51, 244, 0.446) 24%, rgba(120, 9, 247, 0.446) 42%, 
+    rgba(57, 67, 255, 0.611) 58%, rgba(57, 126, 255, 0.652) 76%, 
+    rgba(0, 255, 234, 0.679) 100%, rgba(53, 118, 122, 0.775) 100%), 
+    url(background.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 2 }
+
+.container{
+    width: 100%;
+    height: 99vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 2 2; 
 }
 
 .card{
